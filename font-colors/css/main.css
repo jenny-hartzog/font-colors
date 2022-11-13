@@ -1,0 +1,65 @@
+@charset "UTF-8"
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+.header {
+  font-size: 2em;
+}
+
+.subheader {
+  font-size: 1.5em;
+}
+
+.paragraph {
+  font-size: 0.5em;
+}
+
+/* ----- Mobile font color changes ----- */
+@media (max-width: 767px) {
+  .header {
+    color: #7b7d70;
+  }
+  .subheader {
+    color: #4eafb8;
+  }  
+  .paragraph {
+    color: #ff8641;
+  }
+}
+  
+
+
+/* ----Tablet font color changes ------ */
+@media (min-width: 768px) {
+  .header {
+    color: #02cbd2;
+  }
+  .subheader {
+    color: #ffc02a;
+  }
+  .paragraph {
+    color: #7b8f8e;
+  }
+}
+
+/* ----- Desktop font color changes ------ */
+@media (min-width: 1200px) {
+  .header {
+    color: #6e4b61;
+  }
+  .subheader {
+      color: #cabd61;
+  }
+  .paragraph {
+      color: #c19e74;
+  }
+}
+
